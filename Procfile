@@ -1,0 +1,1 @@
+web: java -jar -Dspring.profiles.active=prod -Dserver.port=$PORT app-monolith/target/annobot-server.jar

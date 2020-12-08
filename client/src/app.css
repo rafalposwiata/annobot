@@ -1,0 +1,384 @@
+@import 'antd/dist/antd.css';
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+    background-color: inherit;
+}
+
+body {
+    background: #e2e2e2;
+}
+
+#app {
+    height: 100%;
+}
+
+.ant-layout {
+    height: 100%;
+}
+
+.logo {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 2rem 0;
+}
+
+.ant-menu-item {
+    border: none;
+}
+
+.ant-menu-dark {
+    background: #2e5077;
+}
+
+.ant-layout-sider {
+    background: #2e5077;
+    flex: 0 0 300px !important;
+    max-width: 300px !important;
+    min-width: 300px !important;
+    width: 300px !important;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.container {
+    margin: 0 2rem;
+}
+
+.row {
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 0.2rem;
+}
+
+.value {
+    font-size: 3rem;
+    margin: auto;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 1rem;
+}
+
+.speaker {
+    width: 40px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.speaker:hover {
+    opacity: 0.5;
+}
+
+.next-button {
+    display: block;
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    background: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin: 6rem auto auto;
+}
+
+.next-button:hover {
+    color: white;
+    background: gray;
+}
+
+.buttons {
+    display: table;
+    margin: 2rem auto auto;
+}
+
+.buttons button {
+    padding: 1rem 1rem;
+    background: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.buttons button:hover {
+    font-weight: bold;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+textarea {
+    width: 100%;
+    font-size: 3rem;
+}
+
+.card {
+    width: 100%;
+    /*height: 100vh;*/
+    margin: auto;
+    background: white;
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.conversation {
+    display: flow-root;
+    /*max-height: 80vh;*/
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.conversation-input {
+    border-top: 1px solid #e2e2e2;
+    /*width: 100%;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+}
+
+.conversation-input input {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 2.6rem;
+    width: 79.5%;
+    padding: 28px 20px;
+}
+
+.conversation-input button {
+    box-sizing: border-box;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 2.6rem;
+    padding: 28px 20px;
+    width: 20%;
+}
+
+.conversation-input form {
+    margin-block-end: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.conversation-message {
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 3rem;
+    list-style-type: none;
+    margin: 4px 0;
+    padding: 6px 10px;
+    max-width: 80%;
+}
+
+.him {
+    float: left;
+    clear: both;
+    border-color: #ededed;
+}
+
+.him-data-item {
+    float: left;
+    clear: both;
+    border-color: #ededed;
+    background: #ededed;
+}
+
+.him-data-item .quote {
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.me {
+    float: right;
+    clear: both;
+    color: white;
+    border-color: #63afec;
+    background: #63afec;
+}
+
+.options button {
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid white;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.options button:hover {
+    border-color: #63afec;
+    background: #63afec;
+    color: white;
+}
+
+.checked {
+    border-color: #63afec !important;
+    background: #63afec !important;
+    color: white !important;
+}
+.label-a {
+    color: #4CAF50;
+}
+
+.label-s {
+    color: indianred;
+}
+
+.experiment .card {
+    margin-top: 10rem;
+    display: flow-root;
+}
+
+.experiment .card h1 {
+    font-size: 2.2rem;
+}
+
+.experiment .card .step-content {
+    margin: 1rem 4rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.experiment .card .next-step-button {
+    float: right;
+    margin: 1.6rem 1.6rem;
+}
+
+.page-number {
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    font-weight: bold;
+}
+
+.ant-radio-group {
+    display: block;
+    margin: 1rem;
+    text-align: center;
+}
+
+.radio-type {
+    display: block;
+    margin-top: 1rem;
+    width: 60%;
+}
+
+.new-comp-name {
+    margin-bottom: 1rem;
+    width: 60%;
+}
+
+.field-label {
+    display: block;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.short-field-label {
+    display: inline-block;
+    font-weight: bold;
+    width: 8.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.panel-0 {
+
+}
+
+.type-icon {
+    font-size: 1.1rem;
+}
+
+.panel-1 {
+    background: #fdfd96;
+}
+
+.panel-2 {
+    background: #e1ffe9;
+}
+
+li.ant-select-dropdown-menu-item {
+    border: none;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.page-header {
+    font-size: 2rem;
+    color: white;
+    background: #2e5077;
+    padding: 1rem;
+}
+
+.page-content {
+    padding: 2rem;
+}
+
+@media only screen
+and (min-width: 800px)
+and (min-device-width: 800px) {
+    .card {
+        width: 50rem;
+        height: auto;
+    }
+
+    .conversation {
+        max-height: 39rem;
+    }
+
+    .conversation-input {
+        border-top: 1px solid #e2e2e2;
+        width: inherit;
+        position: inherit;
+    }
+
+    .conversation-input input {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .conversation-input button {
+        font-size: 16px;
+        padding: 11px 20px;
+    }
+
+    .conversation-message {
+        font-size: 2rem;
+    }
+}
+
+.side-menu .nav-text {
+    font-size: 1.2rem;
+}
+
+.side-menu .nav-text i {
+    font-size: 1.3rem;
+}

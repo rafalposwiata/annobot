@@ -1,0 +1,2 @@
+jsonpickle==1.2
+flair==0.5

@@ -1,0 +1,18 @@
+spring:
+  jpa:
+    database: default
+    generate-ddl: false
+    properties:
+      hibernate:
+        jdbc:
+          clob:
+            non_contextual_creation=true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/<database_name>
+    username: <username>
+    password: <password>
+    driver-class-name: org.postgresql.Driver
+
+external-clients:
+  facebook:
+    graph-api: https://graph.facebook.com/v3.2

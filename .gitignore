@@ -1,0 +1,13 @@
+.idea/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+
+node_modules
+jspm_modules
+jspm_packages
+node
