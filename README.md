@@ -2,6 +2,8 @@
 
 The Annobot platform is the first open-sourced platform for annotating and creating datasets through conversation with a chatbot.
 
+### !!! The system is in the prototype phase. More detailed information and instructions on how to run the application to be available to the world will be available as soon as possible !!!
+
 ### 1. Functionalities
 
 - Annotating through conversation with a chatbot.
@@ -39,5 +41,3 @@ In main directory run mvn clean package and then you can run main class [Annobot
 
 #### 5.4 Running Annobot admin panel and Annobot chat
 Go to [client](client) directory and run npm install and npm start.
-
-### !!! The system is in the prototype phase. More detailed information and instructions on how to run the application to be available to the world will be available around 01.01.2021. !!!
