@@ -2,7 +2,7 @@
 
 The Annobot platform is the first open-sourced platform for annotating and creating datasets through conversation with a chatbot.
 
-### !!! The system is in the prototype phase. More detailed information and instructions on how to run the application to be available to the world will be available as soon as possible !!!
+### !!! The system is in the prototype phase. More detailed information and instructions will be made available as soon as possible !!!
 
 ### 1. Functionalities
 
