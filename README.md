@@ -6,7 +6,7 @@ The Annobot platform is the first open-sourced platform for annotating and creat
 
 If you use the code from this repository, please cite:
 
-```
+```bib
 @inproceedings{poswiata-perelkiewicz-2020-annobot,
     title = "Annobot: Platform for Annotating and Creating Datasets through Conversation with a Chatbot",
     author = "Po{\'s}wiata, Rafa{\l} and Pere{\l}kiewicz, Micha{\l}",
